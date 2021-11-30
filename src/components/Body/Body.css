@@ -1,0 +1,79 @@
+
+.flex-container {
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* gap: 20rem; */
+    background: hsl(201, 12%, 53%);
+/* background: radial-gradient(circle, rgba(10,37,50,0.9850315126050421) 49%, rgba(6,14,8,1) 71%, rgba(5,5,5,1) 100%); */
+    align-items:center;
+    justify-content: center;
+  }
+.flex-container > div {
+    border:none;
+    background: hsl(203, 11%, 43%);
+    /* background-color: rgb(9,30,38); */
+    text-align: center;
+    /* line-height: 75px;
+    font-size: .75rem;*/
+    padding: 1rem;
+    margin: 1rem; 
+    gap: 5rem;
+    color:white;
+    
+}
+.links {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 1rem;
+    margin: 1rem;
+    /* gap: 1rem; */
+    background: hsl(203, 11%, 43%);
+
+}
+.logo{
+    display: block;
+    width:50px;
+    height:50px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.linkedin{
+
+    text-align: center;
+    /* width: 120px; */
+}
+.linkedin >a{
+    /* float:left; */
+    text-align: center;
+}
+.aboutText{
+    /* display:flex;*/
+    flex-direction: column; 
+    text-align:center;
+    justify-content: space-between;
+    background: hsl(203, 11%, 43%);
+    padding: 1rem;
+    margin: 1rem;
+}
+.edulogo{
+    /* flex-direction: column; */
+    width: 10rem;
+    height:10rem;
+    max-width: 100%;
+    max-height: 100%;
+    /* align-items: center; */
+    /* object-fit: cover; */
+    border-radius: 50%;
+    /* padding: 2rem; */
+}
+.contactPage{
+    /* flex-direction: column; */
+    background: hsl(203, 11%, 43%);
+    padding: 1rem;
+    margin: 1rem;
+    
+}

@@ -1,0 +1,25 @@
+.NavBar{
+    display: flex;
+  flex-wrap: wrap;
+  align-items: space-around;
+  justify-content: center;
+  background: rgb(5,17,25);
+
+  /* background: linear-gradient(90deg, rgba(6,14,8,1) 0%, rgba(9,30,38,1) 37%, rgba(78,77,93,1) 78%, rgba(140,119,143,1) 90%, rgba(76,88,126,1) 94%, rgba(81,61,94,0.9850315126050421) 96%); */
+}
+.NavBar > div{
+    flex-direction: row;
+    /* background: rgb(6,14,8); */
+    /* background: radial-gradient(circle, rgba(10,37,50,0.9850315126050421) 49%, rgba(6,14,8,1) 71%, rgba(5,5,5,1) 100%); */
+    /* background: radial-gradient(circle, rgba(6,14,8,1) 0%, rgba(9,30,38,1) 0%, rgba(119,143,129,1) 71%, rgba(7,18,23,1) 94%, rgba(10,37,50,0.9850315126050421) 96%); */
+
+    border: none;
+    color: white;
+    padding: 2rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+ 
+}
+
