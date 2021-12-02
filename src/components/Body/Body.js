@@ -16,12 +16,12 @@ function Body() {
                 
                 <a href={"https://www.linkedin.com/in/psammyqtran"}>
                     LinkedIn
-                    <img className="logo" src="/linkedin.png"  alt="Flowers in Chania" />
+                    <img className="logo" src="./linkedin.png"  alt="LinkedIn Logo" />
                     </a>
                 </div>
                 <div className="linkedin">
                 <a href={"https://github.com/hisammytran"}>GitHub
-                    <img className="logo" src="/github.png"/>
+                    <img className="logo" src="./github.png" alt="Github Logo"/>
                 </a>
                 </div>
 
@@ -38,7 +38,7 @@ function Body() {
                 </div>
                 <h3> Education </h3>
                 <div className="aboutText">
-                    <img className="edulogo" src="/ucsd.png"/>
+                    <img className="edulogo" src="./ucsd.png" alt="UCSD Logo"/>
                     
                     <p>B.S. Mathematics-Computer Science Spring 2020</p>
                 </div>
