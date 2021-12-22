@@ -1,5 +1,7 @@
 .NavBar{
-    display: flex;
+  position: sticky;
+  top: 0;
+  display: flex;
   flex-wrap: wrap;
   align-items: space-around;
   justify-content: center;

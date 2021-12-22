@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const FORM_ENDPOINT = "https://public.herotofu.com/v1/75ddde10-5179-11ec-85ac-d56a41b9ab46"; // TODO - fill on the later step
+const FORM_ENDPOINT = "https://public.herotofu.com/v1/75ddde10-5179-11ec-85ac-d56a41b9ab46"; 
 
 const ContactForm = () => {
 
@@ -12,7 +12,7 @@ const ContactForm = () => {
       method="POST"
       target="_blank"
     >
-      <div>
+      <div className="contactForm">
         <input type="text" placeholder="Your name" name="name" required />
       </div>
       <div>

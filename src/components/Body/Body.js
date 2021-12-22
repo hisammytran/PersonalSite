@@ -14,12 +14,13 @@ function Body() {
             <div className='links'>
                 <div className="linkedin">
                 
-                <a href={"https://www.linkedin.com/in/psammyqtran"}>
-                    LinkedIn
+                <a href={"https://www.linkedin.com/in/psammyqtran"}>LinkedIn
+                    
                     <img className="logo" src="./linkedin.png"  alt="LinkedIn Logo" />
-                    </a>
+                
+                </a>
                 </div>
-                <div className="linkedin">
+                <div  className="linkedin">
                 <a href={"https://github.com/hisammytran"}>GitHub
                     <img className="logo" src="./github.png" alt="Github Logo"/>
                 </a>
