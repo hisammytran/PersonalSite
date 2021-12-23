@@ -30,11 +30,11 @@ function Body() {
             </div></div>
         
             
-            {/* <img src="/linkedin.png"  alt="Flowers in Chania" /> */}
+           
             
-            <div>
+            <div className="aboutText">
                 <h1 id="about">About Me</h1>
-                <div className="aboutText">
+                <div >
                 <p>I am looking for opportunities in Software Engineering/Development in the San Francisco Bay Area.</p>
                 </div>
                 <h3> Education </h3>

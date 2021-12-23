@@ -34,10 +34,10 @@ top: 195px;
 .App{
   display:flex;
   flex-direction: column;
-  background-color: red;
-  width: 100%;
+  /* background-color: red; */
+  /* width: 100%; */
   margin: 0 auto;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 
   
   /* @media only screen and (min-width : 768px) {

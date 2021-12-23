@@ -10,6 +10,8 @@
     justify-content: center;
   }
 .flex-container > div {
+    display:inline;   
+    min-width: 85%;
     border:none;
     background: hsl(203, 11%, 43%);
     /* background-color: rgb(9,30,38); */
@@ -37,6 +39,7 @@
     height:100%;
 }
 .links > div{
+    
     display:inline-block;
     border-radius: 5px;
     padding:1rem;
@@ -65,7 +68,7 @@
 
     max-width: 2rem;
 
-    background: grey;
+    background: orange;
 
     padding: 1rem;
 
@@ -85,6 +88,7 @@
     background: hsl(203, 11%, 43%);
     padding: 1rem;
     margin: 1rem;
+    /* max-width:max-content; */
 }
 .edulogo{
     /* flex-direction: column; */
@@ -98,18 +102,18 @@
 }
 .contactPage{
     /* flex-direction: column; */
-    background: hsl(203, 11%, 43%);
+    /* background: hsl(203, 11%, 43%); */
     /* padding: 1rem;
     margin: 1rem; */
-    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
-    border-radius: 5px;
-    max-width: 480px;
+    /* box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4); */
+    /* border-radius: 5px; */
+    /* max-width: 480px; */
     margin-left: auto;
     margin-right: auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    left: 0;
-    right: 0;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    /* left: 0;
+    right: 0; */
  
-    border-top: 5px solid #0e3721;    
+    /* border-top: 5px solid #0e3721;     */
 }

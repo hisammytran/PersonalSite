@@ -1,1 +1,43 @@
 
+.contactForm{
+    display: inline-block;
+    /* flex-direction: column; */
+}
+
+.contactForm > div{
+    flex: 1;
+    
+    /* background-color: black; */
+}
+.contactForm > input[type=text] {
+    width: 100%;
+    padding: 8px 5px;
+    margin: 8px 0;
+    /* box-sizing: border-box; */
+    border-radius: 5px;
+  }
+
+.contactForm > input[type=email] {
+    width: 100%;
+    padding: 8px 5px;
+    margin: 8px 0;
+    /* box-sizing: border-box; */
+    border-radius: 5px;
+}  
+
+.contactForm > textarea {
+    width: 100%;
+    height:150px;
+    padding: 8px 5px;
+    margin: 8px 0;
+    /* box-sizing: border-box; */
+    border-radius: 5px;
+    resize: none;
+}  
+.contactForm>button{
+    height: 50px;
+    width:100%;
+    border-radius: 4px;
+    color: white;
+    background-color:orange;
+}
