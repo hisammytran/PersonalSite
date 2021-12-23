@@ -11,7 +11,7 @@
   }
 .flex-container > div {
     display:inline;   
-    min-width: 85%;
+    min-width: 50%;
     border:none;
     background: hsl(203, 11%, 43%);
     /* background-color: rgb(9,30,38); */
@@ -58,16 +58,16 @@
     
 }
 .linkedin{
-    display:flex;
-    flex-direction: row;
+    /* display:flex; */
+    /* flex-direction: row; */
     /* text-align: left; */
     /* width: 120px; */
     
 }
 .linkedin >a{
 
-    max-width: 2rem;
-
+    /* max-width: 2rem; */
+    white-space: nowrap;
     background: orange;
 
     padding: 1rem;

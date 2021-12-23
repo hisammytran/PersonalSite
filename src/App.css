@@ -7,6 +7,7 @@
 
 body {
   background-color: rgb(10,37,60);
+  min-width: 85%;
   
 }
 
@@ -22,21 +23,26 @@ a {
   rgba(6,14,8,1) 32%, rgba(5,5,5,1) 100%);
 
 }
-
+/* 
 .test{
   position: absolute;
 width: 448.38px;
 height: 136.66px;
 left: 160.28px;
 top: 195px;
-}
+}  */
 
 .App{
   display:flex;
   flex-direction: column;
+  flex-wrap:wrap;
+  /* align-items:center; */
+  /* justify-content: center; */
+  /* align-content: center; */
+  /* white-space: nowrap; */
   /* background-color: red; */
   /* width: 100%; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
   /* justify-content: space-between; */
 
   
